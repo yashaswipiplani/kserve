@@ -50942,6 +50942,17 @@ spec:
                     - name
                     x-kubernetes-list-type: map
                 type: object
+              tracing:
+                properties:
+                  exporter:
+                    type: string
+                  exporterEndpoint:
+                    type: string
+                  sampler:
+                    type: string
+                  samplerArg:
+                    type: string
+                type: object
               worker:
                 properties:
                   activeDeadlineSeconds:
@@ -72043,6 +72054,17 @@ spec:
                     x-kubernetes-list-map-keys:
                     - name
                     x-kubernetes-list-type: map
+                type: object
+              tracing:
+                properties:
+                  exporter:
+                    type: string
+                  exporterEndpoint:
+                    type: string
+                  sampler:
+                    type: string
+                  samplerArg:
+                    type: string
                 type: object
               worker:
                 properties:
@@ -93252,6 +93274,17 @@ spec:
                     x-kubernetes-list-map-keys:
                     - name
                     x-kubernetes-list-type: map
+                type: object
+              tracing:
+                properties:
+                  exporter:
+                    type: string
+                  exporterEndpoint:
+                    type: string
+                  sampler:
+                    type: string
+                  samplerArg:
+                    type: string
                 type: object
               worker:
                 properties:
@@ -114632,6 +114665,17 @@ spec:
                     x-kubernetes-list-map-keys:
                     - name
                     x-kubernetes-list-type: map
+                type: object
+              tracing:
+                properties:
+                  exporter:
+                    type: string
+                  exporterEndpoint:
+                    type: string
+                  sampler:
+                    type: string
+                  samplerArg:
+                    type: string
                 type: object
               worker:
                 properties:
